@@ -1,0 +1,37 @@
+{
+  "name": "typescript-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "eslint": "^7.5.0",
+    "eslint-config-google": "^0.14.0",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.prod.js",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajeevnair/typescript-webpack.git"
+  },
+  "author": "Sajeev Nair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajeevnair/typescript-webpack/issues"
+  },
+  "homepage": "https://github.com/sajeevnair/typescript-webpack#readme"
+}
